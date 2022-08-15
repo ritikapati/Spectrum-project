@@ -32,12 +32,13 @@ function App()
           onChange={setText}
           label="Your text" position="relative" style={{border: "crimson"}}/>
         
-        <p style={{ fontSize: `${txtsize}px` }}>Mirrored text: {text}</p>
+        <p style={{ fontSize: `${txtsize}px` , color:`${color}`}}>Mirrored text: {text}</p>
         <br />
         <br />
 
         <TextArea placeholder="text"/>
         <br/>
+        
         <Button onPress={setTxtsize}>Change Size</Button>
       </View>
     </Flex>
