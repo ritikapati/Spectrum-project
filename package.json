@@ -5,6 +5,7 @@
   "dependencies": {
     "@adobe/react-spectrum": "^3.20.0",
     "@react-spectrum/color": "^3.0.0-beta.14",
+    "@react-stately/color": "^3.1.0",
     "@spectrum-web-components/sidenav": "^0.13.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
